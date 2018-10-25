@@ -1,0 +1,38 @@
+body{
+    background-color: brown;
+}
+section{
+    height: calc(100vh - 70px);
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+.divs{
+    display: flex;
+    height: 90%;
+    width: calc(90%/3);
+    box-shadow: 0 0 5px;
+    border-radius: 5px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+.divLogo{
+    height: 75%;
+    width: 75%;
+    background-color: green;
+}
+.divLogo a{
+    background: url(../img/icon.png);
+    width: 90%;
+    height:90%;
+    background-size: 90%;
+    background-position: center;
+    background-color: yellow;
+    
+}
